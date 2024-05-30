@@ -19,15 +19,17 @@
 }
 
 .nav-item {
-  margin-top: 8px;
+  margin-top: 28px;
 }
 
 .head {
   margin-left: 10px;
+  margin-top: -9%;
 }
 
 .side {
-  height: 10px;
+  height: 30px;
+  margin-top: 40%;
   width: 20px;
 }
 
@@ -43,4 +45,70 @@
 .sidebar-item {
   margin-top: 30px;
   list-style: none;
+  cursor: pointer;
+  height: 40px;
+  width: 300px;
+}
+
+.sidebar-item:hover {
+  background-color: #aeaeae;
+  color: black;
+}
+
+.offcanvas-title {
+  margin-left: 30px;
+}
+
+.titlee {
+  margin-left: 10px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgb(246, 211, 101), rgb(253, 160, 133));
+}
+
+.bg-blue {
+  background-color: #7000da !important;
+}
+
+.py-profile .avatar {
+  padding: 0;
+}
+.py-profile .avatar img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 30%;
+  margin-left: 100%;
+}
+
+.prof {
+  font-weight: 600;
+}
+
+.profile-2 {
+  margin-left: 8%;
+  margin-right: 3%;
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.profile {
+  height: 20px;
+  width: 20px;
+}
+
+.profile-back {
+  background-color: #aeaeae;
+  height: 30px;
+  position: relative;
+  width: 30px;
 }/*# sourceMappingURL=header.component.css.map */

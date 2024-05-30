@@ -23,6 +23,32 @@
                         aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+                <li class="nav-item-3 ms-5 ps-5 mt-3 d-flex">
+                    <ul class="nav py-profile justify-content-end">
+                        <li class="nav-item-3 dropdown">
+                            <a class="nav-link dropdown-toggle avatar" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://pngimg.com/uploads/spongebob/spongebob_PNG1.png" class="profile"
+                                    alt="">
+                            </a>
+                            <ul class="dropdown-menu dropleft location-drop " aria-labelledby="navbarDropdown">
+                                <li><img src="https://pngimg.com/uploads/spongebob/spongebob_PNG1.png" class="profile-2"
+                                        alt=""><span class="prof">pallu</span><br><a class="dropdown-item" href="#">view
+                                        your
+                                        profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Switch Account</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </li>
 
 
             </ul>
@@ -32,35 +58,29 @@
 </nav>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="sidebarLabel">Sidebar</h5>
+        <h3 class="offcanvas-title" id="sidebarLabel"><i class="ri-folder-video-fill"></i> <span
+                class="titlee">DOCTUBE</span></h3>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <!-- Sidebar content -->
-        <ul>
-            <li class="sidebar-item">
-
-                <span>HOME</span>
-
-            </li>
-            <li class="sidebar-item">
-
-                <span>Profile</span>
+        <ul class="d-flex flex-column">
+            <li class="sidebar-item justify-content-center ">
+                <i class="ri-home-2-line"></i>
+                <span class="ms-3">HOME</span>
 
             </li>
             <li class="sidebar-item">
-                <span>Profile</span>
+                <i class="ri-receipt-line"></i>
+                <span class="ms-3">SUBSCRIPTIONS</span>
 
             </li>
             <li class="sidebar-item">
-
-                <span>Profile</span>
-            </li>
-            <li class="sidebar-item">
-
-                <span>Profile</span>
+                <i class="ri-file-history-line"></i>
+                <span class="ms-3">HISTORY</span>
 
             </li>
+
             <!-- Add more sidebar items here -->
         </ul>
     </div>

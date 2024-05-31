@@ -13,15 +13,17 @@
                     <!-- The sidebar -->
 
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link head text-info" aria-current="page" href="#">
-                        <h3>DOCTUBE</h3>
+                <li class="nav-item ms-3 d-flex">
+                    <i class="ri-folder-video-fill text-info" id="my-icon"></i>
+                    <a class="nav-link head text-info ms-4 d-flex" aria-current="page" href="#">
+                        <h3>DOCUTUBE </h3><sup class="text-super mt-2 ms-1">IN</sup>
                     </a>
                 </li>
                 <form class="d-flex searchbar" role="search">
                     <input class="form-control me-2 ms-5 searchicon" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-info" type="submit">Search</button>
+                        aria-label="Search" style="border-radius: 20px 0 0 20px; padding: 10px; width: 300px;">
+                    <button class="btn btn-outline-info" type="submit"
+                        style="border-radius: 0 20px 20px 0; padding: 10px;"><i class="ri-search-line"></i></button>
                 </form>
                 <li class="nav-item-3 ms-5 ps-5 mt-3 d-flex">
                     <ul class="nav py-profile justify-content-end">
@@ -58,26 +60,58 @@
 </nav>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
     <div class="offcanvas-header">
-        <h3 class="offcanvas-title" id="sidebarLabel"><i class="ri-folder-video-fill"></i> <span
-                class="titlee">DOCTUBE</span></h3>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h3 class="offcanvas-title" id="sidebarLabel"><i class="ri-folder-video-fill text-info"></i> <span
+                class="titlee text-info">DOCUTUBE</span></h3><sup class="text-super mb-2 ms-2">IN</sup>
+
     </div>
     <div class="offcanvas-body">
         <!-- Sidebar content -->
         <ul class="d-flex flex-column">
             <li class="sidebar-item justify-content-center ">
-                <i class="ri-home-2-line"></i>
-                <span class="ms-3">HOME</span>
+                <i class="ri-home-2-line h-5 w-5"></i>
+                <span class="ms-4">Home</span>
 
             </li>
             <li class="sidebar-item">
                 <i class="ri-receipt-line"></i>
-                <span class="ms-3">SUBSCRIPTIONS</span>
+                <span class="ms-4">Subscriptions</span>
 
             </li>
             <li class="sidebar-item">
                 <i class="ri-file-history-line"></i>
-                <span class="ms-3">HISTORY</span>
+                <span class="ms-4">History</span>
+
+            </li>
+            <li class="sidebar-item">
+                <i class="ri-fire-line"></i>
+                <span class="ms-4">Trending</span>
+
+            </li>
+            <li class="sidebar-item">
+                <i class="ri-lightbulb-line"></i>
+                <span class="ms-4">Courses</span>
+
+            </li>
+            <hr>
+            <li class="sidebar-item">
+                <i class="ri-settings-2-line"></i>
+                <span class="ms-4">Settings</span>
+
+            </li>
+            <li class="sidebar-item">
+                <i class="ri-flag-line"></i>
+                <span class="ms-4">Report History</span>
+
+            </li>
+            <li class="sidebar-item">
+                <i class="ri-feedback-line"></i>
+                <span class="ms-4">Send Feedback</span>
+
+            </li>
+            <li class="sidebar-item">
+                <i class="ri-question-line"></i>
+                <span class="ms-4">Help</span>
 
             </li>
 

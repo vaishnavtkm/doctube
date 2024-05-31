@@ -32,4 +32,8 @@ body {
 
 .cursor {
   cursor: pointer;
+}
+
+.doc-cards:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=content.component.css.map */

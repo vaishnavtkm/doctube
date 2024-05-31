@@ -1,25 +1,29 @@
 <div class="container mx-5">
     <div class="row">
         <!-- doc section added  -->
-        <div class="col-8">
-            <iframe class="docs mt-5" src="https://www.junkybooks.com/book/reader.php?book=thebooks/665838f43845b-click-bank-guide.pdf" frameborder="0"></iframe>
+        <div class="col-8 my-5">
+          <div class="d-flex align-item-center justify-content-center">
+            <img id="mainImg" [src]="imageurl" class="mainIm img-fluid rounded" alt="...">
+          </div>
             <div class="my-4">
-                <h5 class="card-title">Click Bank Guide</h5>
+                <h5 class="card-title">{{title}}</h5>
                 <p class="card-text">By: Junkybooks</p>
-                <p class="card-text"><small class="text-body-secondary">    Category: Marketing</small></p>  
+                <p class="card-text"><small class="text-body-secondary">Category:{{category}}</small></p>
+                <p class="card-text"><small class="text-body-secondary">Description:{{category}}</small></p>  
             </div>
+            <iframe [src]="iframeUrl" frameborder="0"></iframe>
         </div>
         <!-- side card section  -->
         <div class="col-4 card-block mt-5 overflow-y-scroll" >
 
-            <div class="card doc-cards shadow p-2 mb-3">
+            <div class="card doc-cards shadow p-2 mb-3" (click)="change_image(1)">
               <input type="text" hidden value="" id="hidd-card-id">
                 <div class="row g-0">
                     <div class="col-md-4 ">
                       <img id="mainImg " src="https://www.junkybooks.com/administrator/bookimages/665838370796e6.43800522.png" class="img-fluid rounded-start" alt="...">
                         
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 p-2 cursor">
                       <div class="card-body ">
                         <h5 class="card-title">Build Your Affiliate Army</h5>
                         <p class="card-text">By: Junkybooks</p>
@@ -28,12 +32,12 @@
                     </div>
                   </div>
             </div>
-            <div class="card doc-cards shadow p-2 mb-3" >
+            <div class="card doc-cards shadow p-2 mb-3" (click)="change_image(2)" >
                 <div class="row g-0">
                     <div class="col-md-4">
                       <img src="https://www.junkybooks.com/administrator/bookimages/665832411c85c1.83591894.png" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 p-2 cursor">
                       <div class="card-body">
                         <h5 class="card-title">BIG Book Of Proof!</h5>
                         <p class="card-text">By: Junkybooks</p>
@@ -42,12 +46,12 @@
                     </div>
                   </div>
             </div>
-            <div class="card doc-cards shadow p-2 mb-3" >
+            <div class="card doc-cards shadow p-2 mb-3" (click)="change_image(3)" >
                 <div class="row g-0">
                     <div class="col-md-4">
                       <img src="https://www.junkybooks.com/administrator/bookimages/65ba4c85008645.28192782.jpg" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 cursor p-2">
                       <div class="card-body">
                         <h5 class="card-title">Wall Street</h5>
                         <p class="card-text">By: Junkybooks</p>
@@ -56,12 +60,12 @@
                     </div>
                   </div>
             </div>
-            <div class="card doc-cards shadow p-2 mb-3" >
+            <div class="card doc-cards shadow p-2 mb-3" (click)="change_image(4)">
                 <div class="row g-0">
                     <div class="col-md-4">
                       <img src="https://www.junkybooks.com/administrator/bookimages/6311e0051e9a99.96078929.jpeg" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 cursor p-2">
                       <div class="card-body">
                         <h5 class="card-title">Google AdWords Primer</h5>
                         <p class="card-text">By: Junkybooks</p>
@@ -70,12 +74,12 @@
                     </div>
                   </div>
             </div>
-            <div class="card doc-cards shadow p-2 mb-3" >
+            <div class="card doc-cards shadow p-2 mb-3" (click)="change_image(5)">
                 <div class="row g-0">
                     <div class="col-md-4">
                       <img src="https://www.junkybooks.com/administrator/bookimages/643c4fc24c8f40.58051357.jpg" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 cursor p-2">
                       <div class="card-body">
                         <h5 class="card-title">The Ecology Of Trees In The Tropical Rain Forest</h5>
                         <p class="card-text">By: Junkybooks</p>
@@ -84,12 +88,12 @@
                     </div>
                   </div>
             </div>
-            <div class="card doc-cards shadowcp-2 mb-3" >
+            <div class="card doc-cards shadowcp-2 mb-3" (click)="change_image(6)">
                 <div class="row g-0">
                     <div class="col-md-4">
                       <img src="https://www.junkybooks.com/administrator/bookimages/62fa8c70926a16.84720364.PNG" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8 p-2">
+                    <div class="col-md-8 cursor p-2">
                       <div class="card-body">
                         <h5 class="card-title">Profitable Turnkey Website Ideas For Fast Income</h5>
                         <p class="card-text">By: Junkybooks</p>
